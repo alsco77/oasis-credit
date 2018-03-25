@@ -1,5 +1,13 @@
 ## OasisCredit ERC20 Token contract
 
+### Tech stack
+ - [Node.js](https://github.com/nodejs/node)
+ - [Truffle](https://github.com/trufflesuite/truffle) 
+ - [Zeppelin Solidity](https://github.com/OpenZeppelin/zeppelin-solidity)
+ - [dotenv](https://github.com/motdotla/dotenv)
+ - [web3.js](https://github.com/ethereum/web3.js/)
+ 
+ 
 ### To get up and running
  - run `npm install` to add node modules
  - create a `.env` file on root folder
@@ -10,6 +18,7 @@
  - run `truffle deploy --network ropsten --reset` (re deploys contract)
  - Grab the OasisCredit contract address from the output and search on http://ropsten.etherscan.io/token-search to find the contract details
    - Use this address to add custom tokens to MyCrypto, MetaMask, etc and transfer tokens
+
 
 ### To publicise smart contract code
  - Navigate to the 'Read Smart Contract' tab on the ropsten.etherscan.io/token/[tokenAddr]
